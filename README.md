@@ -1,3 +1,6 @@
+# Artifactory golang modules example
+
+```
 # go mod init github.com/erikthorselius/modules-example
 go: creating new go.mod: module github.com/erikthorselius/modules-example
 # go get github.com/go-openapi/swag
@@ -84,5 +87,4 @@ go: finding golang.org/x/crypto v0.0.0-20181106171534-e4dc69e5b2fd
 go: github.com/go-openapi/swag@v0.17.2: unexpected status (https://artifactory.example.com/artifactory/api/go/go/github.com/go-openapi/swag/@v/v0.17.2.info): 404 Not Found
 go: github.com/go-openapi/validate@v0.17.2: unexpected status (https://artifactory.example.com/artifactory/api/go/go/github.com/go-openapi/validate/@v/v0.17.2.info): 404 Not Found
 go: error loading module requirements
-
-
+```
